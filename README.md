@@ -16,7 +16,9 @@ myapache role is used to configure apache webserver using httpd product.
 ### Role Variables
 
 A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. I used basically two variable
+
 pkgs: This is used to tell which software will be install.
+
 rule: This is used to create firewall rule . So we can access http and https services.
 
 ### Example Playbook
