@@ -1,0 +1,9 @@
+- name: Apply role to webserver
+  hosts: webservers
+  roles:
+          - role: /root/Task-15/myapache
+
+- name: Configure Load Balancer
+  hosts: lb
+  roles:
+          - role: /root/Task-15/myloadbalancer

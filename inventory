@@ -1,0 +1,9 @@
+[webservers]
+192.168.43.27   ansible_user=root ansible_ssh_pass=redhat ansible_connection=ssh
+192.168.43.169   ansible_user=root ansible_ssh_pass=redhat ansible_connection=ssh
+
+
+[lb]
+192.168.43.74   ansible_user=root ansible_ssh_pass=redhat ansible_connection=ssh
+
+
